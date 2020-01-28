@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GoodMorningMani" duration-ms="6143" started-at="2020-01-27T16:06:16 IST" finished-at="2020-01-27T16:06:22 IST">
+    <groups>
+    </groups>
+    <test name="Smoke" duration-ms="6143" started-at="2020-01-27T16:06:16 IST" finished-at="2020-01-27T16:06:22 IST">
+      <class name="com.dias.steps.Login">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.dias.steps.Login@12cdcf4]" name="logintest" duration-ms="2747" started-at="2020-01-27T16:06:19 IST" finished-at="2020-01-27T16:06:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.dias.steps.Login -->
+      <class name="com.dias.steps.Signup">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.dias.steps.Signup@25af5db5]" name="logintest" duration-ms="3334" started-at="2020-01-27T16:06:16 IST" finished-at="2020-01-27T16:06:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.dias.steps.Signup -->
+      <class name="com.dias.demoproj.Setup">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.dias.demoproj.Setup@5bfbf16f]" name="setDriver" is-config="true" duration-ms="10491" started-at="2020-01-27T16:06:06 IST" finished-at="2020-01-27T16:06:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+      </class> <!-- com.dias.demoproj.Setup -->
+    </test> <!-- Smoke -->
+  </suite> <!-- GoodMorningMani -->
+</testng-results>

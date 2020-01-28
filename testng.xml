@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="GoodMorningMani" parallel="false" preserve-order="false" verbose="1" thread-count="1" >
+    <test name="Smoke">
+        
+        <classes>
+            
+          <class name="com.dias.demoproj.Setup"/>
+          
+          <class name="com.dias.steps.Signup"/>
+          
+          <class name="com.dias.steps.Login"/>
+          
+        </classes>
+    </test>
+</suite>
